@@ -23,7 +23,7 @@ export const MovieDetail = () => {
     <main>
       <section className="flex justify-around flex-wrap py-5">
         <div className="max-w-sm">
-          <img className="rounded" src={image} alt="film image"/>
+          <img className="rounded" src={image} alt="film "/>
 
         </div>
         <div className="max-w-2xl text-gray-700 text-lg dark:text-white ">
