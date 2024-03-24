@@ -18,8 +18,7 @@ export const MovieDetail = () => {
   },[params.id]);
   
   const image=movie.poster_path? `https://image.tmdb.org/t/p/w500/${movie.poster_path}`:Backup;
-
-  const webTitle=useTitle(`${movie.title}`)
+  useTitle(`${movie.title}`);
   return (
     <main>
       <section className="flex justify-around flex-wrap py-5">

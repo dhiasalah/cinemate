@@ -4,8 +4,7 @@ import { Button } from "../components/button";
 import { useTitle } from "../hooks/useTitle";
 export const PageNotFound = () => {
 
-
-  const webTitle=useTitle("Page Not Found");
+  useTitle("Page Not Found");
 
   return (
     <main>
